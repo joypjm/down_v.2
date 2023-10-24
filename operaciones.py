@@ -3,11 +3,12 @@ def add (num_1, num_2):
     print (f' {num_1} + {num_2} is equal to {result}')
     return result
   
-#operacion con producto 
-numero1 = float(input("Ingresa el primer número: "))
-numero2 = float(input("Ingresa el segundo número: "))
-resultado = numero1 * numero2
-print(f"El resultado de la multiplicación es: {resultado}")
+def multiplicar(numero_1, numero2):
+    numero1 = float(input("Ingresa el primer número: "))
+    numero2 = float(input("Ingresa el segundo número: "))
+    resultado = numero1 * numero2
+    print(f"El resultado de la multiplicación es: {resultado}")
+    return resultado
 
 #operaciones con producto
 
