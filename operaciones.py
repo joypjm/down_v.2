@@ -12,15 +12,17 @@ def multiplicar(numero_1, numero2):
 
 #operaciones con producto
 
-base = float(input("Ingresa la base: "))
-exponente = int(input("Ingresa el exponente: "))
-resultado = base ** exponente
-print(f"{base} elevado a la {exponente} es igual a: {resultado}")
+def producto():
+    base = float(input("Ingresa la base: "))
+    exponente = int(input("Ingresa el exponente: "))
+    resultado = base ** exponente
+    print(f"{base} elevado a la {exponente} es igual a: {resultado}")
 
 #operaciones con modulo 
-dividendo = int(input("Ingresa el dividendo: "))
-divisor = int(input("Ingresa el divisor: "))
-resultado = dividendo % divisor
-print(f"El módulo de {dividendo} entre {divisor} es igual a: {resultado}")
+def modulo():
+    dividendo = int(input("Ingresa el dividendo: "))
+    divisor = int(input("Ingresa el divisor: "))
+    resultado = dividendo % divisor
+    print(f"El módulo de {dividendo} entre {divisor} es igual a: {resultado}")
 
 
